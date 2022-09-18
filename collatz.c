@@ -21,7 +21,7 @@ int colattz(int n)
     {
         steps++;
         printf("%i -> ", n);
-        return colattz(3 * n + 1);
+        return colattz((3 * n + 1) / 2);
     }
 }
 
