@@ -10,8 +10,8 @@ The Collatz conjecture is applied to positive integer and speculated that it is 
 $$
 f(n) =
 \begin{cases}
-n/2       & \quad \text{if } n \equiv 0\\
-3n+1  & \quad \text{if } n \equiv 1
+n/2   & \quad \text{if } n \equiv 0 & \pmod{2}\\
+3n+1  & \quad \text{if } n \equiv 1 & \pmod{2}
 \end{cases}
 $$
   
