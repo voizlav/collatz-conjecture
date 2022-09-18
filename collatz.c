@@ -14,13 +14,13 @@ int colattz(int n)
     else if (n % 2 == 0)
     {
         steps++;
-        printf("%i ->\n", n);
+        printf("%i -> ", n);
         return colattz(n / 2);
     } 
     else
     {
         steps++;
-        printf("%i ->\n", n);
+        printf("%i -> ", n);
         return colattz(3 * n + 1);
     }
 }
