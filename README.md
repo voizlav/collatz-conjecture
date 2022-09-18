@@ -11,7 +11,7 @@ $$
 f(n) =
 \begin{cases}
 n/2   & \quad \text{if } n \equiv 0 & \pmod{2}\\
-3n+1  & \quad \text{if } n \equiv 1 & \pmod{2}
+(3n+1)/2  & \quad \text{if } n \equiv 1 & \pmod{2}
 \end{cases}
 $$
   
