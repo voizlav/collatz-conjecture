@@ -7,18 +7,20 @@ int colattz(int n)
 {
     if (n == 1)
     {
-        steps++;
+        printf("%i\n", n);
         printf("Total steps: %i\n", steps);
         return n;
     }
     else if (n % 2 == 0)
     {
         steps++;
+        printf("%i ->\n", n);
         return colattz(n / 2);
     } 
     else
     {
         steps++;
+        printf("%i ->\n", n);
         return colattz(3 * n + 1);
     }
 }
