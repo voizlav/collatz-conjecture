@@ -2,8 +2,8 @@
 
 The Collatz conjecture is applied to positive integer and speculated that it is always possible to get _back to 1_ if you follow these steps:
 
-- If the number is even, divide it by two.
-- If the number is odd, triple it and add one.
+- If the number is even, divide it by two: $n \rightarrow n/2$
+- If the number is odd, triple it and add one: $n \rightarrow 3n+1$
 
 ### Modular arithmetic notation:
 
