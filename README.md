@@ -27,5 +27,31 @@ The program is called with the starting number and calculates how many steps are
 
 ```
 $ collatz 8
+8 ->
+4 ->
+2 ->
+1
 Total steps: 3
+```
+
+```
+15 ->
+46 ->
+23 ->
+70 ->
+35 ->
+106 ->
+53 ->
+160 ->
+80 ->
+40 ->
+20 ->
+10 ->
+5 ->
+16 ->
+8 ->
+4 ->
+2 ->
+1
+Total steps: 17
 ```
