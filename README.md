@@ -26,24 +26,19 @@ The program is called with the starting number and calculates how many steps are
 ## Example
 
 ```
-$ collatz 8
-8 ->
-4 ->
-2 ->
-1
-Total steps: 3
+$ collatz 6
+6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+Total steps: 8
 ```
 
 ```
-$ collatz 6
-6 ->
-3 ->
-10 ->
-5 ->
-16 ->
-8 ->
-4 ->
-2 ->
-1
-Total steps: 8
+$ collatz 7
+7 -> 22 -> 11 -> 34 -> 17 -> 52 -> 26 -> 13 -> 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+Total steps: 16
+```
+
+```
+$ collatz 8
+8 -> 4 -> 2 -> 1
+Total steps: 3
 ```
